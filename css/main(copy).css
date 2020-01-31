@@ -1,0 +1,364 @@
+*{ 
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+body {
+     background-color: rgb(7, 7, 7);
+}
+.container {
+	max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+
+.wr_background__black {
+    background-color: #000;
+}
+.contact_top,
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid  #760100;
+}
+.logo_top {
+    width: 200px;
+    height: 162px;
+    text-decoration: none;
+}
+.contact_top_border {
+    border: 2px solid #760100;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.nav  {
+    padding: 15px 0 15px;
+}
+.text__white {
+    color:#fff;
+    font: 1.2em 'Ubuntu', sans-serif;
+    
+}
+.nav li a:hover {
+    transition-duration: .2s;
+    color: #760100;
+}
+.contact_text,
+.nav_item {
+    text-transform: uppercase;
+    font-size: 1.3em;
+    margin: 10px 0;
+    text-align: center;
+}
+.contact_adress {
+    margin: 10px 0;
+}
+.contact_top__tell {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 10px;
+}
+.contact_time {
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+.td_none,
+.item p,
+.footer_tell a,
+.footer_support a,
+.footer_adresses a  {
+    text-decoration: none;
+}
+.backhround_auto {
+    background: url(../img/img-auto_1.png);
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.block_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main_text,
+.block_text {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.2em;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.main_text::after {
+    content: '';
+    display: block;
+    width: 64px;
+    margin: 30px auto;
+    border: 1px solid;
+}    
+.button_block_main {
+    display: inline-block;
+    background-color: #760100;
+	color:white;
+	padding: 19px 54px;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 0 auto;
+    border-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+}
+.button_block_main:hover {
+    opacity: .7;
+}
+.advantages,
+.fitting,
+.body_repair__gray {
+    display: flex;
+    justify-content: space-between;
+}
+.wr_advantages,
+.wr_services,
+.wr_maintenance,
+.wr_fitting,
+.wr_body_repair   {
+    padding-top: 60px;
+}
+.item_advantages img {
+    width: 130px;
+    height: 130px;
+    padding-bottom: 12px;
+}
+.item_advantages {
+    border: 1px solid #760100;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px;
+    background-color: rgb(26, 26, 26);
+    max-width: 32%;
+}
+.item_advantages:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #ccc;
+    cursor: pointer;
+    transition: .4s;
+    
+}
+.item_text {
+    padding: 8px 0;
+} 
+.text_top__white {
+    font: 1.5em 'Ubuntu', sans-serif;
+    color:#fff;
+}
+.text_top__white::after {
+    content: '';
+    display: block;
+    width: 64px;
+    margin: 16px auto;
+    border: 1px solid;
+}
+.services_item {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45px;
+}
+.item img {
+    width: 344px;
+    height: 215px;
+    margin-bottom: -4px;   
+} 
+.item a:last-of-type {
+    display: block;
+    background-color: #760100;
+    color:white;
+    text-decoration: none;
+    font: 1.5em 'Ubuntu', sans-serif;
+    text-align: center;
+}
+.item:hover {
+    transition: opacity 0.3s ease 0s;
+    opacity: .7;
+    /* transform: scale(1.1) */
+}
+
+.wr_connection {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.connection_text {
+    color:white;
+    font: 1.5em 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 45px;
+}
+iframe {
+    border: 1px solid #760100;
+    border-radius: 5px;
+} 
+.feedback {
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #760100;
+    border-radius: 5px;
+    /* margin-top: 45px;     */
+}
+.feedback input,
+ textarea {
+    width: 311px;
+    height: 25px;
+    border: 1px solid transparent;
+    border-bottom-color: #ccc;
+    outline: none;
+    margin: 20px 50px;
+    padding: 0px 10px;
+    background-color: rgb(26, 26, 26);
+    color: #fff;
+}
+textarea {
+    resize: none; 
+    overflow: hidden;
+    height: 54px;
+    font-size: 1.2em;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid  #760100;
+    padding: 35px 0 20px;
+}
+.footer_adresses,
+.footer_support,
+.footer_tell {
+     text-align: center;
+}
+.footer img {
+    margin-bottom: 10px;
+}
+.footer img:hover {
+    transform: scale(1.2);
+}
+.button_maintenance {
+    display: block;
+    background-color: #760100;
+	color:white;
+	padding: 19px 54px;
+	text-decoration: none;
+	margin: 5px auto;
+    border-radius: 5px;
+    font: bold 1.2em 'Ubuntu', sans-serif;
+}
+
+.button_maintenance:hover {
+    opacity: .7;
+} 
+.button {
+    background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+.active, .button:hover {
+    background-color: #ccc;
+}
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: black;
+  overflow: hidden;
+}
+span .button_block_main {
+    margin: 40px 0 30px;
+}
+.maintenance_text p,
+.fitting_text p,
+.wr_body_repair p {
+    padding: 10px;
+}
+.maintenance_text p:last-child {
+    padding-bottom: 70px;
+}
+.text__red {
+    color:#760100;
+    font: bold 1.5em 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+}
+.maintenance_list {
+    padding: 20px 70px;
+}
+.maintenance_list li {
+    color: #760100;
+    padding: 10px;
+}
+
+.fitting_car {
+    margin: 30px 0;
+}
+.fitting_img img,
+.repair_img  {
+    height: 241px;
+    width: 415px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.repair_img img:hover {
+    height: 260px;
+    width: 425px;
+    /* overflow: hidden;
+    flex-shrink: 0; */
+
+}
+.fitting_text {
+    margin-top: -17px;
+}
+
+.wr_background_table {
+    border: 1px solid #760100;
+    border-radius: 5px;
+    background-color: rgb(26, 26, 26);
+}
+
+table {
+    border-collapse: collapse; 
+    width: 100%;
+}
+table tr:nth-child(1) td:nth-child(n+2) {
+    font-weight: bold;
+}
+table tr:nth-child(even) {
+    background-color: rgb(7, 7, 7);
+}
+td {
+    border: 1px solid #760100;
+}
+table td {
+    color:#fff;
+    font: 1.3em 'Ubuntu', sans-serif;
+    padding: 15px;
+}
+.tr__last td {
+    font-weight: bold;
+    /* text-decoration: underline; 
+    text-decoration-color: #760100;  */
+}
+.body_repair__gray {
+    border: 1px solid #760100;
+    border-radius: 5px;
+    background-color: rgb(26, 26, 26);
+    margin: 10px 0;
+}
+.wr_body_repair .main_text {
+    margin-bottom: 40px;
+}

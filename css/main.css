@@ -1,0 +1,566 @@
+*{ 
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+body {
+     background-color: rgb(7, 7, 7);
+     overflow-x: hidden;
+}
+.container {
+	max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+
+
+.wr_background__black {
+    background-color: #000;
+}
+.contact_top
+ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid  #760100;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_top {
+    width: 200px;
+    height: 162px;
+    text-decoration: none;
+}
+.contact_top_border {
+    border: 2px solid #760100;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.nav  {
+    padding: 15px 0 15px;
+}
+.text__white {
+    color:#fff;
+    font: 1.2em 'Ubuntu', sans-serif;
+    
+}
+.nav li a:hover {
+    transition-duration: .8s;
+    color: #760100;
+}
+.contact_text,
+.nav_item {
+    text-transform: uppercase;
+    font-size: 1.3em;
+    margin: 10px 0;
+    text-align: center;
+}
+.contact_adress {
+    margin: 10px 0;
+}
+.contact_top__tell {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 10px;
+}
+.contact_time {
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+.td_none,
+.item p,
+.footer_tell a,
+.footer_support a,
+.footer_adresses a,
+.panel a  {
+    text-decoration: none;
+}
+.backhround_auto {
+    background: url(../img/img-auto_1.png);
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.block_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main_text,
+.block_text {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.2em;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.main_text::after {
+    content: '';
+    display: block;
+    width: 64px;
+    margin: 30px auto;
+    border: 1px solid;
+}    
+.button_block_main {
+    display: inline-block;
+    background-color: #760100;
+	color:white;
+	padding: 19px 54px;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 0 auto;
+    border-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+}
+.button_block_main:hover {
+    opacity: .7;
+}
+.advantages,
+.fitting,
+.body_repair__gray {
+    display: flex;
+    justify-content: space-between;
+}
+.wr_advantages,
+.wr_services,
+.wr_maintenance,
+.wr_fitting,
+.wr_body_repair   {
+    padding-top: 60px;
+}
+.item_advantages img {
+    width: 130px;
+    height: 130px;
+    padding-bottom: 12px;
+}
+.item_advantages {
+    border: 1px solid #760100;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px;
+    background-color: rgb(26, 26, 26);
+    max-width: 32%;
+}
+.item_advantages:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px #ccc;
+    cursor: pointer;
+    transition: .5s;
+    
+}
+.item_text {
+    padding: 8px 0;
+} 
+.text_top__white {
+    font: 1.5em 'Ubuntu', sans-serif;
+    color:#fff;
+}
+.text_top__white::after {
+    content: '';
+    display: block;
+    width: 64px;
+    margin: 16px auto;
+    border: 1px solid;
+}
+.services_item {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45px;
+}
+.item img {
+    width: 344px;
+    height: 215px;
+    margin-bottom: -4px;   
+} 
+.item a:last-of-type {
+    display: block;
+    background-color: #760100;
+    color:white;
+    text-decoration: none;
+    font: 1.5em 'Ubuntu', sans-serif;
+    text-align: center;
+}
+.item:hover {
+    transition: opacity 0.3s ease 0s;
+    opacity: .7;
+    /* transform: scale(1.1) */
+}
+
+.wr_connection {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.connection_text {
+    color:white;
+    font: 1.5em 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 45px;
+}
+iframe {
+    border: 1px solid #760100;
+    border-radius: 5px;
+} 
+.feedback {
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #760100;
+    border-radius: 5px;
+    /* margin-top: 45px;     */
+}
+.feedback input,
+ textarea {
+    width: 311px;
+    height: 25px;
+    border: 1px solid transparent;
+    border-bottom-color: #ccc;
+    outline: none;
+    margin: 20px 50px;
+    padding: 0px 10px;
+    background-color: rgb(26, 26, 26);
+    color: #fff;
+}
+form p :last-child {
+    display: inline-block;
+    background-color: #760100;
+	color:white;
+	padding: 19px 54px;
+	font-weight: bold;
+	margin: 25px auto;
+    border-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+   
+}
+textarea {
+    resize: none; 
+    overflow: hidden;
+    height: 54px;
+    font-size: 1.2em;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid  #760100;
+    /* padding: 35px 0 20px; */
+    padding-top: 40px;
+}
+.footer_adresses,
+.footer_support,
+.footer_tell {
+     text-align: center;
+}
+.footer img {
+    margin-bottom: 10px;
+}
+.footer img:hover {
+    transform: scale(1.2);
+    transition-duration: .5s;
+}
+.button_maintenance {
+    display: flex;
+    background-color: #760100;
+	color:white;
+	padding: 19px 54px;
+	text-decoration: none;
+	margin: 2px 2px;
+    border-radius: 5px;
+    font: bold 1.2em 'Ubuntu', sans-serif;
+    width: 49%;   
+}
+
+.button_maintenance:hover {
+    opacity: .7;
+} 
+.maintenance_item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.button {
+    background-color: #760100;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: .4s;
+    color: white;
+    padding: 19px 54px;
+    text-decoration: none;
+    font: bold 1.2em 'Ubuntu', sans-serif;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.active,
+.button:hover {
+    background-color: #760100;
+}
+button.button:after {
+    content: '\002B';
+    color: #fff;
+    font-weight: bold;
+    float: right;
+}
+button.button.active:after {
+    content: "\2212"
+}    
+.panel {
+  padding: 0 20px ;
+  background-color: #ccc;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  max-height: 0;
+  border-radius: 5px;
+}
+.panel p {
+    padding: 0 70px;
+    margin: 10px 0;
+    color:rgb(26, 26, 26);
+    font: 1.2em 'Ubuntu', sans-serif;
+    transition-duration: .5s;
+}
+.panel p:hover {
+    color: #760100;
+} 
+
+
+span .button_block_main {
+    margin: 40px 0 30px;
+}
+.maintenance_text p,
+.fitting_text p,
+.wr_body_repair p {
+    padding: 10px;
+}
+.maintenance_text p:last-child {
+    padding-bottom: 70px;
+}
+.text__red {
+    color:#760100;
+    font: bold 1.5em 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+}
+.maintenance_list {
+    padding: 20px 70px;
+}
+.maintenance_list li {
+    color: #760100;
+    padding: 10px;
+}
+
+.fitting_car {
+    margin: 30px 0;
+}
+.fitting_img img,
+.repair_img img {
+    height: 241px;
+    width: 415px;
+}
+.repair_img img:hover {
+    height: 260px;
+    width: 425px;
+}
+.repair_img {
+    height: 241px;
+    width: 415px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+.fitting_text {
+    margin-top: -17px;
+}
+
+.wr_background_table {
+    border: 1px solid #760100;
+    border-radius: 5px;
+    background-color: rgb(26, 26, 26);
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse; 
+    width: 100%;
+}
+table tr:nth-child(1) td:nth-child(n+2) {
+    font-weight: bold;
+}
+table tr:nth-child(even) {
+    background-color: rgb(7, 7, 7);
+}
+td {
+    border: 1px solid #760100;
+}
+table td {
+    color:#fff;
+    font: 1.3em 'Ubuntu', sans-serif;
+    padding: 15px;
+}
+.tr__last td {
+    font-weight: bold;
+    /* text-decoration: underline; 
+    text-decoration-color: #760100;  */
+}
+.body_repair__gray {
+    border: 1px solid #760100;
+    border-radius: 5px;
+    background-color: rgb(26, 26, 26);
+    margin: 10px 0;
+}
+.wr_body_repair .main_text {
+    margin-bottom: 40px;
+}
+/* nav{
+    background: #222;  
+    padding: 15px;
+  } */
+
+  .nav{
+    display: flex;
+    list-style: none;
+  }
+  .nav_item{
+    color: #fff;
+    display: block;
+    padding: 5px 15px;
+  }
+    
+  #btn_menu{
+    display: none;
+    
+  }
+  #btn_menu + label{
+    display: none; 
+    position: relative;
+    color: #fff; 
+    height: 20px;
+    z-index: 1;
+    cursor: pointer;
+  }
+  #btn_menu + label:before{
+    content: '\2630';  
+    display: inline-block;
+    font-family:'FontAwesome';
+    font-size: 30px;
+    background-color: rgb(26, 26, 26);
+    margin-left: 20px;
+    padding: 8px 13px;
+    border-radius: 5px;
+  }
+  #btn_menu:checked + label:before{
+    content: '\205d';
+  }
+
+
+
+
+@media screen and (max-width: 768px) {
+    .contact_top,
+    .nav,
+    .advantages,
+    .services_item,
+    .wr_connection,
+    .fitting,
+    .body_repair__gray {
+    flex-direction: column;
+    } 
+    .backhround_auto {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .contact_top,
+    .nav li {
+        border: none;
+        padding-bottom: 10px;
+    }
+    
+
+
+    #btn_menu + label{
+        display: inline-block;
+     }
+    #btn_menu + label + .nav{
+      display: none;
+    }
+    #btn_menu:checked + label + .nav{
+      display: block;
+    }
+
+    
+
+
+
+
+    .footer {
+        padding: 35px 0 20px;
+    }
+    .contact_top__tell {
+        margin: 10px;
+}
+    .item_advantages {
+    text-align: center;
+    padding: 20px;
+    max-width: 100%;
+    margin: 10px;
+    }
+    .item_advantages img {
+        width: 70px;
+        height: 70px;
+    }
+    .item {
+        display: flex;
+        justify-content: center;
+    }
+    iframe {
+        width: 100%;
+    }
+    table td  {
+        font-size: 1em;
+    }
+    .body_repair__gray {
+        width: 57%;
+        flex-direction: column;
+        margin: 10px auto;
+        text-align: center;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .backhround_auto {
+        background: none;
+    }
+    .feedback input,
+    textarea {
+        width: auto;
+    }
+    .button_maintenance {
+        width: 100%;
+    }
+    .footer p {
+        font: 1em 'Ubuntu', sans-serif;
+    }
+    .body_repair__gray {
+        width: 100%;
+    }
+    .fitting_img img {
+        width: 100%;
+        padding-bottom: 5px;
+    }
+    .fitting_car table {
+        width: 100%;
+    }
+}
